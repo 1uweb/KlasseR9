@@ -1,0 +1,31 @@
+{
+  "name": "klasser9",
+  "version": "1.0.0",
+  "description": "Klassenwebsite der R9",
+  "main": "index.js",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.10.0",
+    "nprogress": "^0.2.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1uweb/KlasseR9.git"
+  },
+  "author": "Uwe Barthel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1uweb/KlasseR9/issues"
+  },
+  "homepage": "https://github.com/1uweb/KlasseR9#readme"
+}
